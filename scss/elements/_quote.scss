@@ -1,0 +1,41 @@
+.quate {
+  background: url("../../img/quote/quote-background.png") center / 100% 100%
+    no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 100px 300px 100px 160px;
+  .container {
+    position: relative;
+    .quates {
+        position: absolute;
+        top: -30px;
+        left: -60px;
+
+      background: url("../../img/quote/quote-icon.png") center / 100% 100%
+        no-repeat;
+      background-size: cover;
+      width: 102px;
+      height: 84px;
+    }
+    h3 {
+      margin-bottom: 40px;
+      font-weight: 400;
+    }
+    .author-explanation {
+      font-family: "Playfair Display", serif;
+      font-style: italic;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+    .quate{
+        padding: 50px 65px;
+        h3{
+            font-size: 2.2rem;
+        }
+    }
+}
