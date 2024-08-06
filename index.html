@@ -1,12 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>SOLIS</title>
+    <link rel="icon" href="./img/Logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <body>
+      <header class="header">
+        <div class="header-background"></div>
+        <!-- /.header-background -->
+        <div class="container">
+          <div class="logo">
+            <!-- <img src="./img/logo/logo_icon.png" alt="logo"> -->
+            <svg>
+              <use xlink:href="./img/Logo.svg#logo"></use>
+            </svg>
+          </div>
+          <!-- /.logo -->
+
+          <nav class="nav">
+            <ul class="list">
+              <li class="list__item">
+                <a href="#section">Home</a>
+                <div class="hover-line"></div>
+                <!-- /.hover-line -->
+              </li>
+              <!-- /.list__item -->
+              <li class="list__item">
+                <a href="#article">About</a>
+                <div class="hover-line"></div>
+                <!-- /.hover-line -->
+              </li>
+              <!-- /.list__item -->
+              <li class="list__item">
+                <a href="#header">Products</a>
+                <div class="hover-line"></div>
+                <!-- /.hover-line -->
+              </li>
+              <!-- /.list__item -->
+              <li class="list__item">
+                <a href="#footer">Use Cases</a>
+                <div class="hover-line"></div>
+                <!-- /.hover-line -->
+              </li>
+              <!-- /.list__item -->
+              <li class="list__item">
+                <a href="#footer">Pricing</a>
+                <div class="hover-line"></div>
+                <!-- /.hover-line -->
+              </li>
+              <!-- /.list__item -->
+              <li class="list__item">
+                <a href="#footer">Resources</a>
+                <div class="hover-line"></div>
+                <!-- /.hover-line -->
+              </li>
+              <!-- /.list__item -->
+            </ul>
+            <!-- /.list -->
+          </nav>
+          <!-- /.nav -->
+        </div>
+        <!-- /.container -->
+
+        <div class="burger">
+          <input type="checkbox" id="burger-toggle" />
+          <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <nav class="burger-menu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#section">About</a></li>
+              <li><a href="#article">Products</a></li>
+              <li><a href="#header">Use Cases</a></li>
+              <li><a href="#footer">Pricing</a></li>
+              <li><a href="#footer">Resources</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- /.burger -->
+      </header>
+
+      <main class="main">
+        <section id="home" class="section hero">
+          <div class="container">
+            <div class="text">
+              <h1>
+                A peer-to-peer stablecoin<br />
+                <span class="blue">clearinghouse</span> for the new<br />
+                economy
+              </h1>
+              <p>
+                We are bringing real solutions to the payments world by<br />
+                leveraging public blockchains.
+              </p>
+              <div class="">
+                <a class="button small-btn" href="#"
+                  ><span class="bnt-name">JOIN NOW</span>
+                  <span class="button-element"></span>
+                  <!-- /.button-element -->
+                </a>
+              </div>
+              <!-- /.hero-buttons -->
+            </div>
+            <!-- /.text -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.section -->
+        <div class="section sales-part">
+          <div class="container">
+            <div class="sales-part"></div>
+            <!-- /.sales-part -->
+            <div class="sales-text">
+              <div class="prices">
+                <div class="price-list">
+                  <div class="price-list__item">
+                    <p class="price"><span class="currency">$</span> 1 tril</p>
+                    <p class="price-explanation">Market cap potential</p>
+                    <div class="price-line"></div>
+                    <!-- /.price-line -->
+                  </div>
+                  <!-- /.price-list__item -->
+                  <div class="price-list__item">
+                    <p class="price">
+                      <span class="currency">$</span> 3.65 mil
+                    </p>
+                    <p class="price-explanation">Deposited to platform</p>
+                    <div class="price-line"></div>
+                    <!-- /.price-line -->
+                  </div>
+                  <!-- /.price-list__item -->
+                  <div class="price-list__item">
+                    <p class="price"><span class="currency">$</span> 12</p>
+                    <p class="price-explanation">Stablecoins</p>
+                  </div>
+                  <!-- /.price-list__item -->
+                </div>
+                <!-- /.price-list -->
+              </div>
+              <!-- /.prices -->
+              <div class="explanation-text">
+                <p>
+                  Solis group is a new venture created with<br />
+                  investments from and collaboration with XBTO<br />
+                  International, XBTO Ventures and Phil Potter,<br />
+                  formerly of bitfinex. Stablehouse is intended to<br />
+                  launch a first-of-its-kind clearing house for<br />
+                  stablecoins that seeks to promote the next phase<br />
+                  of the market’s development.
+                </p>
+                <p>
+                  The API-enabled, centralized platform addresses<br />
+                  the key issues of inconsistent liquidity, stability and<br />
+                  accessibility which are currently preventing the<br />
+                  stablecoin market from reaching critical mass.
+                </p>
+                <a class="button medium-btn" href="#"
+                  ><span class="bnt-name">Contact sales</span>
+                  <span class="button-element"></span>
+                  <!-- /.button-element -->
+                </a>
+              </div>
+              <!-- /.explanation-text -->
+            </div>
+            <!-- /.sales-text -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.section -->
+        <section id="home" class="section explanation-part">
+          <div class="container">
+            <div class="explanation-part__list">
+              <div class="explanation-part__list__item">
+                <h2>
+                  Qualified <span class="blue">traders</span> and<br />
+                  liquidty <span class="blue">solutions</span>
+                </h2>
+                <p>
+                  Trade easily and efficiently between 12 stablecoins,
+                  including<br />
+                  USDT, TrueUSD, Dai, Eurs and Gemini Dollar.
+                </p>
+              </div>
+              <!-- /.explanation-part__list__item -->
+              <div class="explanation-part__list__item">
+                <h2>
+                  Settlement/OTC API and<br />
+                  <span class="blue">integration</span>
+                </h2>
+                <p>
+                  Integrate OTC operations and settlements using our
+                  efficient<br />
+                  API.
+                </p>
+              </div>
+              <!-- /.explanation-part__list__item -->
+              <div class="explanation-part__list__item">
+                <h2>
+                  The best
+                  <span class="blue"
+                    >payments<br />
+                    solutions
+                  </span>
+                </h2>
+                <p>
+                  For all stablecoin payments, from point-of-sale transactions
+                  to<br />
+                  website solutions. If you use stablecoins in your business,<br />
+                  Stablehouse is for you.
+                </p>
+              </div>
+              <!-- /.explanation-part__list__item -->
+              <div class="explanation-part__list__item">
+                <h2>
+                  <span class="blue">Treasury</span> and <span class="blue">returns</span><br />
+                  for stablecoin stores
+                </h2>
+                <p>
+                  Trade easily and efficiently between 12 stablecoins,
+                  including<br />
+                  USDT, TrueUSD, Dai, Eurs and Gemini Dollar.
+                </p>
+              </div>
+              <!-- /.explanation-part__list__item -->
+            </div>
+            <!-- /.explanation-part__list -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.section -->
+        <section id="home" class="section none">
+          <div class="container">
+            <div class="photo">
+              <img
+                src="./img/product_managers/product_managers.png"
+                alt="Photo"
+              />
+            </div>
+            <!-- /.photo -->
+
+            <div class="text">
+              <p class="top-text">Easier decision making for</p>
+              <!-- /.top-text -->
+              <h2>Product Managers</h2>
+              <p>
+                The Myspace page defines the individual, his or her<br />
+                characteristics, traits, personal choices and the overall<br />
+                personality of the person.
+              </p>
+              <div class="list-section">
+                <div class="list-section__item">
+                  <svg>
+                    <use
+                      xlink:href="./img/product_managers/check.svg#check"
+                    ></use>
+                  </svg>
+                  <p>
+                    Never worry about overpaying for your<br />
+                    energy again.
+                  </p>
+                </div>
+                <!-- /.list-section__item -->
+                <div class="list-section__item">
+                  <svg>
+                    <use
+                      xlink:href="./img/product_managers/check.svg#check"
+                    ></use>
+                  </svg>
+                  <p>
+                    We will only switch you to energy companies<br />
+                    that we trust and will treat you right
+                  </p>
+                </div>
+                <!-- /.list-section__item -->
+                <div class="list-section__item">
+                  <svg>
+                    <use
+                      xlink:href="./img/product_managers/check.svg#check"
+                    ></use>
+                  </svg>
+                  <p>
+                    We track the markets daily and know where the<br />
+                    savings are.
+                  </p>
+                </div>
+                <!-- /.list-section__item -->
+              </div>
+              <!-- /.list-section -->
+            </div>
+            <!-- /.text -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.section -->
+        <section id="home" class="section none">
+          <div class="container">
+            <div class="text">
+              <p class="top-text">Optimisation for</p>
+              <!-- /.top-text -->
+              <h2>Marketers</h2>
+              <p>
+                Few would argue that, despite the advancements of<br />
+                feminism over the past three decades, women still face a<br />
+                double standard when it comes to their behavior.
+              </p>
+              <h4>Accessory makers</h4>
+              <p>
+                While most people enjoy casino gambling, sports betting,<br />
+                lottery and bingo playing for the fun
+              </p>
+              <h4>Alterationists</h4>
+              <p>
+                If you are looking for a new way to promote your business<br />
+                that won’t cost you more money,
+              </p>
+              <h4>Custom Design designers</h4>
+              <p>
+                If you are looking for a new way to promote your business<br />
+                that won’t cost you more money,
+              </p>
+            </div>
+            <!-- /.text -->
+            <div class="photo">
+              <img
+                src="./img/design_professionals/design_professionals.png"
+                alt="Photo"
+              />
+            </div>
+            <!-- /.photo -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.section -->
+      </main>
+      <footer id="footer" class="footer none">
+        <div class="container">
+          <div class="logo">
+            <img src="./img/logo/logo_icon.png" alt="logo" />
+            <svg>
+              <use xlink:href="./img/logo/logo.svg#slogan"></use>
+            </svg>
+          </div>
+          <!-- /.logo -->
+          <div class="footer-list">
+            <div class="footer-list__item">
+              <a href="#">About Us</a>
+            </div>
+            <!-- /.footer-list__item -->
+            <div class="footer-list__item">
+              <a href="#">Blog</a>
+            </div>
+            <!-- /.footer-list__item -->
+            <div class="footer-list__item">
+              <a href="#"> Contact</a>
+            </div>
+            <!-- /.footer-list__item -->
+            <div class="footer-list__item">
+              <a href="#"> FAQ</a>
+            </div>
+            <!-- /.footer-list__item -->
+          </div>
+          <!-- /.footer-list -->
+          <div class="footer-list">
+            <div class="footer-list__item">
+              <a href="#">Disclaimer</a>
+            </div>
+            <!-- /.footer-list__item -->
+            <div class="footer-list__item">
+              <a href="#">Financing</a>
+            </div>
+            <!-- /.footer-list__item -->
+            <div class="footer-list__item">
+              <a href="#"> Privacy Policy </a>
+            </div>
+            <!-- /.footer-list__item -->
+            <div class="footer-list__item">
+              <a href="#"> Terms of Service </a>
+            </div>
+            <!-- /.footer-list__item -->
+          </div>
+          <!-- /.footer-list -->
+          <form action="/search" method="get">
+            <input
+              type="search"
+              id="search-box"
+              name="q"
+              placeholder="Введіть ваш пошуковий запит"
+            />
+            <button type="submit">Шукати</button>
+          </form>
+        </div>
+        <!-- /.container -->
+      </footer>
+    </body>
+  </body>
 </html>

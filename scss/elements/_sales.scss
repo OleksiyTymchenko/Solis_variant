@@ -1,0 +1,130 @@
+.sales-part {
+  position: relative;
+  top: -80px; //-280
+
+  .container {
+    position: relative;
+
+    .sales-part {
+      background: url("../../img/sales/statistic-image.png") center / 100% 100%
+        no-repeat;
+      background-size: cover;
+      width: 570px;
+      height: 670px;
+    }
+    .sales-text {
+      position: absolute;
+      top: -45px;
+      left: 400px;
+      background-color: #161926;
+      opacity: 0.9;
+      padding: 45px 0 45px 55px;
+      width: 770px;
+
+      display: flex;
+      .prices {
+        margin-right: 56px;
+
+        .price-list {
+          .price-list__item {
+            .price {
+              text-align: center;
+              font-family: "Playfair Display", serif;
+              font-size: 6.8rem;
+              .currency {
+                font-size: 4rem;
+              }
+            }
+            .price-explanation {
+              font-family: "Lato", serif;
+              font-size: 300;
+              font-size: 1.8rem;
+              text-align: center;
+              margin-top: 12px;
+            }
+            .price-line {
+              background: url("../../img/sales/divider-line.png") center / 100%
+                100% no-repeat;
+              background-size: cover;
+              width: 100px;
+              height: 2px;
+              margin: 40px auto;
+            }
+          }
+        }
+      }
+      .explanation-text {
+        p {
+          margin-bottom: 45px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+.sales-part .container .sales-text{
+            top: -45px;
+            left: calc(400px/2);
+            .prices {
+              margin-right: 56px;
+      
+              .price-list {
+                .price-list__item {
+                  .price {
+                    text-align: center;
+                    font-family: "Playfair Display", serif;
+                    font-size: 6.8rem;
+                    .currency {
+                      font-size: 4rem;
+                    }
+                  }
+                  .price-explanation {
+                    font-family: "Lato", serif;
+                    font-size: 300;
+                    font-size: 1.8rem;
+                    text-align: center;
+                    margin-top: 12px;
+                  }
+                  .price-line {
+                    background: url("../../img/sales/divider-line.png") center / 100%
+                      100% no-repeat;
+                    background-size: cover;
+                    width: 100px;
+                    height: 2px;
+                    margin: 40px auto;
+                  }
+                }
+              }
+            }
+            .explanation-text {
+              p {
+                margin-bottom: 45px;
+              }
+            }
+          }
+        
+  }
+
+  @media (min-width: 200px) and (max-width: 1000px) {
+    .sales-part .container .sales-text{
+                top: -45px;
+                left:0;
+                
+              }
+            
+      }
+      @media (min-width: 200px) and (max-width: 1000px) {
+        .sales-part .container .sales-text{
+                    display: flex;
+                    flex-direction: column;
+                    position: static;
+                    margin: auto;
+                    text-align: center;
+                    width: 300px;
+                  }
+                  .button{
+                    margin: auto;
+                  }
+                
+          }

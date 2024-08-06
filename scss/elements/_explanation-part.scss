@@ -1,0 +1,48 @@
+.explanation-part {
+  padding: 120px 0;
+  .container {
+    .explanation-part__list {
+      height: 620px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .explanation-part__list__item {
+        background: url("../../img/Explanation-part/divider-line.png") center / 100% 100% no-repeat;
+        background-size: cover;
+        width: 570px;
+        height: 1px;
+
+        h2 {
+          margin-top: 50px;
+          margin-bottom: 30px;
+          .blue {
+            color: #689ff2;
+            font-style: italic;
+          }
+        }
+        p {
+          margin-bottom: 112px;
+        }
+      }
+    }
+  }
+}
+
+
+  @media (min-width: 200px) and (max-width: 1200px) {
+    
+    .explanation-part {
+        padding-right: 20px;
+        padding-left: 20px;
+        .container .explanation-part__list{
+            height: 1240px;
+            justify-content: center;
+        }
+    }
+  }
+
+  @media (min-width: 200px) and (max-width: 500px) {
+    .explanation-part .container .explanation-part__list .explanation-part__list__item{
+        background-image: none;
+    } 
+  }
